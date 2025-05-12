@@ -1,0 +1,10 @@
+services:
+  tilda:
+    volumes:
+      - ./appsettings:/data/appsettings/
+    container_name: respresenter
+    ports:
+      - '5342:5342'
+    environment:
+      - PORT=5342
+    image: ghcr.io/zzacal/respresenter:v1.1-alpha
