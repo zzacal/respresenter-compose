@@ -1,0 +1,1 @@
+Search result data will end up in this folder. Files here will be git ignored.

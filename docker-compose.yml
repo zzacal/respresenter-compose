@@ -2,9 +2,10 @@ services:
   nosabre:
     volumes:
       - ./appsettings:/data/appsettings/
+      - ./results:/data/results/
     container_name: nosabre
     ports:
       - '5342:5342'
     environment:
       - PORT=5342
-    image: ghcr.io/zzacal/respresenter:v1.2-alpha
+    image: ghcr.io/zzacal/respresenter:v1.5-alpha
