@@ -8,4 +8,4 @@ services:
     environment:
       - PORT=5342
     platform: linux/amd64
-    image: ghcr.io/zzacal/respresenter:v1.5-alpha
+    image: ghcr.io/zzacal/respresenter:v1.7-alpha
